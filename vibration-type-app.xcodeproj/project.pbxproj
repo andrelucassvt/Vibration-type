@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241630BA2923349900D8B150 /* type_vibration_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241630B92923349900D8B150 /* type_vibration_appApp.swift */; };
+		241630BC2923349900D8B150 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241630BB2923349900D8B150 /* HomeView.swift */; };
+		241630BE2923349A00D8B150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241630BD2923349A00D8B150 /* Assets.xcassets */; };
+		241630C12923349A00D8B150 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241630C02923349A00D8B150 /* Preview Assets.xcassets */; };
+		241630CB2923349B00D8B150 /* type_vibration_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241630CA2923349B00D8B150 /* type_vibration_appTests.swift */; };
+		241630D52923349B00D8B150 /* type_vibration_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241630D42923349B00D8B150 /* type_vibration_appUITests.swift */; };
+		241630D72923349B00D8B150 /* type_vibration_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241630D62923349B00D8B150 /* type_vibration_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241630C72923349B00D8B150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241630AE2923349900D8B150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241630B52923349900D8B150;
+			remoteInfo = "type-vibration-app";
+		};
+		241630D12923349B00D8B150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241630AE2923349900D8B150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241630B52923349900D8B150;
+			remoteInfo = "type-vibration-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		241630B62923349900D8B150 /* type-vibration-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "type-vibration-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		241630B92923349900D8B150 /* type_vibration_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type_vibration_appApp.swift; sourceTree = "<group>"; };
+		241630BB2923349900D8B150 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		241630BD2923349A00D8B150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241630C02923349A00D8B150 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		241630C62923349B00D8B150 /* type-vibration-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "type-vibration-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		241630CA2923349B00D8B150 /* type_vibration_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type_vibration_appTests.swift; sourceTree = "<group>"; };
+		241630D02923349B00D8B150 /* type-vibration-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "type-vibration-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		241630D42923349B00D8B150 /* type_vibration_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type_vibration_appUITests.swift; sourceTree = "<group>"; };
+		241630D62923349B00D8B150 /* type_vibration_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type_vibration_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241630B32923349900D8B150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241630C32923349B00D8B150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241630CD2923349B00D8B150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		241630AD2923349900D8B150 = {
+			isa = PBXGroup;
+			children = (
+				241630B82923349900D8B150 /* type-vibration-app */,
+				241630C92923349B00D8B150 /* type-vibration-appTests */,
+				241630D32923349B00D8B150 /* type-vibration-appUITests */,
+				241630B72923349900D8B150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		241630B72923349900D8B150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241630B62923349900D8B150 /* type-vibration-app.app */,
+				241630C62923349B00D8B150 /* type-vibration-appTests.xctest */,
+				241630D02923349B00D8B150 /* type-vibration-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241630B82923349900D8B150 /* type-vibration-app */ = {
+			isa = PBXGroup;
+			children = (
+				241630B92923349900D8B150 /* type_vibration_appApp.swift */,
+				241630BB2923349900D8B150 /* HomeView.swift */,
+				241630BD2923349A00D8B150 /* Assets.xcassets */,
+				241630BF2923349A00D8B150 /* Preview Content */,
+			);
+			path = "type-vibration-app";
+			sourceTree = "<group>";
+		};
+		241630BF2923349A00D8B150 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				241630C02923349A00D8B150 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		241630C92923349B00D8B150 /* type-vibration-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				241630CA2923349B00D8B150 /* type_vibration_appTests.swift */,
+			);
+			path = "type-vibration-appTests";
+			sourceTree = "<group>";
+		};
+		241630D32923349B00D8B150 /* type-vibration-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				241630D42923349B00D8B150 /* type_vibration_appUITests.swift */,
+				241630D62923349B00D8B150 /* type_vibration_appUITestsLaunchTests.swift */,
+			);
+			path = "type-vibration-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241630B52923349900D8B150 /* type-vibration-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241630DA2923349B00D8B150 /* Build configuration list for PBXNativeTarget "type-vibration-app" */;
+			buildPhases = (
+				241630B22923349900D8B150 /* Sources */,
+				241630B32923349900D8B150 /* Frameworks */,
+				241630B42923349900D8B150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "type-vibration-app";
+			productName = "type-vibration-app";
+			productReference = 241630B62923349900D8B150 /* type-vibration-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		241630C52923349B00D8B150 /* type-vibration-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241630DD2923349B00D8B150 /* Build configuration list for PBXNativeTarget "type-vibration-appTests" */;
+			buildPhases = (
+				241630C22923349B00D8B150 /* Sources */,
+				241630C32923349B00D8B150 /* Frameworks */,
+				241630C42923349B00D8B150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241630C82923349B00D8B150 /* PBXTargetDependency */,
+			);
+			name = "type-vibration-appTests";
+			productName = "type-vibration-appTests";
+			productReference = 241630C62923349B00D8B150 /* type-vibration-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		241630CF2923349B00D8B150 /* type-vibration-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241630E02923349B00D8B150 /* Build configuration list for PBXNativeTarget "type-vibration-appUITests" */;
+			buildPhases = (
+				241630CC2923349B00D8B150 /* Sources */,
+				241630CD2923349B00D8B150 /* Frameworks */,
+				241630CE2923349B00D8B150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241630D22923349B00D8B150 /* PBXTargetDependency */,
+			);
+			name = "type-vibration-appUITests";
+			productName = "type-vibration-appUITests";
+			productReference = 241630D02923349B00D8B150 /* type-vibration-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241630AE2923349900D8B150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					241630B52923349900D8B150 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					241630C52923349B00D8B150 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 241630B52923349900D8B150;
+					};
+					241630CF2923349B00D8B150 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 241630B52923349900D8B150;
+					};
+				};
+			};
+			buildConfigurationList = 241630B12923349900D8B150 /* Build configuration list for PBXProject "vibration-type-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 241630AD2923349900D8B150;
+			productRefGroup = 241630B72923349900D8B150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241630B52923349900D8B150 /* type-vibration-app */,
+				241630C52923349B00D8B150 /* type-vibration-appTests */,
+				241630CF2923349B00D8B150 /* type-vibration-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241630B42923349900D8B150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241630C12923349A00D8B150 /* Preview Assets.xcassets in Resources */,
+				241630BE2923349A00D8B150 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241630C42923349B00D8B150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241630CE2923349B00D8B150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241630B22923349900D8B150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241630BC2923349900D8B150 /* HomeView.swift in Sources */,
+				241630BA2923349900D8B150 /* type_vibration_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241630C22923349B00D8B150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241630CB2923349B00D8B150 /* type_vibration_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241630CC2923349B00D8B150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241630D52923349B00D8B150 /* type_vibration_appUITests.swift in Sources */,
+				241630D72923349B00D8B150 /* type_vibration_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241630C82923349B00D8B150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241630B52923349900D8B150 /* type-vibration-app */;
+			targetProxy = 241630C72923349B00D8B150 /* PBXContainerItemProxy */;
+		};
+		241630D22923349B00D8B150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241630B52923349900D8B150 /* type-vibration-app */;
+			targetProxy = 241630D12923349B00D8B150 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		241630D82923349B00D8B150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		241630D92923349B00D8B150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241630DB2923349B00D8B150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"type-vibration-app/Preview Content\"";
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vibration type";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.type-vibration-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		241630DC2923349B00D8B150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"type-vibration-app/Preview Content\"";
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vibration type";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.type-vibration-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		241630DE2923349B00D8B150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.type-vibration-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/type-vibration-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/type-vibration-app";
+			};
+			name = Debug;
+		};
+		241630DF2923349B00D8B150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.type-vibration-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/type-vibration-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/type-vibration-app";
+			};
+			name = Release;
+		};
+		241630E12923349B00D8B150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.type-vibration-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "type-vibration-app";
+			};
+			name = Debug;
+		};
+		241630E22923349B00D8B150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.type-vibration-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "type-vibration-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241630B12923349900D8B150 /* Build configuration list for PBXProject "vibration-type-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241630D82923349B00D8B150 /* Debug */,
+				241630D92923349B00D8B150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241630DA2923349B00D8B150 /* Build configuration list for PBXNativeTarget "type-vibration-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241630DB2923349B00D8B150 /* Debug */,
+				241630DC2923349B00D8B150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241630DD2923349B00D8B150 /* Build configuration list for PBXNativeTarget "type-vibration-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241630DE2923349B00D8B150 /* Debug */,
+				241630DF2923349B00D8B150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241630E02923349B00D8B150 /* Build configuration list for PBXNativeTarget "type-vibration-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241630E12923349B00D8B150 /* Debug */,
+				241630E22923349B00D8B150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 241630AE2923349900D8B150 /* Project object */;
+}
